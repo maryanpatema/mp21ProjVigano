@@ -19,3 +19,6 @@ REFERENCES:
 		https://sites.google.com/site/qeewiki/books/avr-guide/external-interrupts-on-the-atmega328
 		https://electronics.stackexchange.com/questions/324891/external-interrupt-on-atmega328p
 
+TEAM VIGANO: 	Ishmaiah Julia Agbay
+		Andrea Therese Rodgrigo
+		Marianne Fatima Valenzuela
