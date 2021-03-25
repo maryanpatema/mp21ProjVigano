@@ -4,13 +4,13 @@
 Project Title: HANDLING MULTIPLE EXTERNAL INTERRUPTS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Description:
+	Description:
 
-All pins in ATmega328p can trigger interrupts when there is a change of state. However, only INT0 and INT1 can be configured to trigger interrupts in a low level. This trigger continuous until the low-level stops. Upon activation of these interrupts, the MCU gets ‘interrupted’ on what is it currently performing and jumps to execute the interrupt service routine.
-		
-Thus, the non-interrupt pins serve as an interrupt handler. This allows either INT0 or INT1 handle multiple external interrupts connected to their respective handlers. The pins are grouped into three ports that can serve as an interrupt vector, so the interrupt will trigger if any pin on that vector changes state, and has interrupts enabled.
+	All pins in ATmega328p can trigger interrupts when there is a change of state. However, only INT0 and INT1 can be configured to trigger interrupts in a low level. This trigger continuous until the low-level stops. Upon activation of these interrupts, the MCU gets ‘interrupted’ on what is it currently performing and jumps to execute the interrupt service routine.
 
-Lastly, note that the processor follows a hierarchy when handling interrupt signals.  It handles and acts upon from the highest to least priority. 
+	Thus, the non-interrupt pins serve as an interrupt handler. This allows either INT0 or INT1 handle multiple external interrupts connected to their respective handlers. The pins are grouped into three ports that can serve as an interrupt vector, so the interrupt will trigger if any pin on that vector changes state, and has interrupts enabled.
+
+	Lastly, note that the processor follows a hierarchy when handling interrupt signals.  It handles and acts upon from the highest to least priority. 
 
 
 
@@ -34,73 +34,73 @@ REFERENCES:
 
 TEAM VIGANO:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 		Ishmaiah Julia Agbay
-		Andrea Therese Rodgrigo, Rapporteur
-		Marianne Fatima Valenzuela, Team Lead
+ 	Ishmaiah Julia Agbay
+	Andrea Therese Rodgrigo, Rapporteur
+	Marianne Fatima Valenzuela, Team Lead
 		
 
 
 TABLE OF CONTENTS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-I.	INTRODUCTION
+	I.	INTRODUCTION
 
-II.	DISCUSSION
+	II.	DISCUSSION
 
-a.	ATMEGA 328p 
-a.1. Features
-a.2. Pin Configurations and Description
-a.3. I/O Ports
+	a.	ATMEGA 328p 
+	a.1. Features
+	a.2. Pin Configurations and Description
+	a.3. I/O Ports
 
-b.	Interrupts
-b.1. Basics of Interrupts
-b.2. Kinds of Interrupts
-b.3. Purpose of Interrupts
-b.4. Interrupt Service Routine
+	b.	Interrupts
+	b.1. Basics of Interrupts
+	b.2. Kinds of Interrupts
+	b.3. Purpose of Interrupts
+	b.4. Interrupt Service Routine
 
-c.	ATMEGA328p External Interrupts
-c.1. Interrupt Vectors in ATmega328P
-c.2. Register Description
-	c.2.1. External Interrupt Control Register
-	c.2.2. External Interrupt Mask Register
-	c.2.3. External Interrupt Flag Register
-	c.2.4. Pin Change Interrupt Control Register
-	c.2.5. Pin Change Interrupt Mask Register
-	c.2.6. Pin Change Interrupt Flag Register
-c.3. External Interrupt Processing
-c.4. Global Manipulation of the Interrupt Flag
+	c.	ATMEGA328p External Interrupts
+	c.1. Interrupt Vectors in ATmega328P
+	c.2. Register Description
+		c.2.1. External Interrupt Control Register
+		c.2.2. External Interrupt Mask Register
+		c.2.3. External Interrupt Flag Register
+		c.2.4. Pin Change Interrupt Control Register
+		c.2.5. Pin Change Interrupt Mask Register
+		c.2.6. Pin Change Interrupt Flag Register
+	c.3. External Interrupt Processing
+	c.4. Global Manipulation of the Interrupt Flag
 
-III.	CIRCUIT CONFIGURATIONS
+	III.	CIRCUIT CONFIGURATIONS
 
-a.	Basic LED Toggle State
-a.1. Using One Pushbutton as an External Interrupt
-a.2 Connecting Multiple Pushbuttons in one External Interrupt
-a.3 Connecting Multiple Pushbuttons in all External Interrupt
+	a.	Basic LED Toggle State
+	a.1. Using One Pushbutton as an External Interrupt
+	a.2 Connecting Multiple Pushbuttons in one External Interrupt
+	a.3 Connecting Multiple Pushbuttons in all External Interrupt
 
-b.	Basic Binary Counter
-b.1. Using One Pushbutton to Count Up
-b.2. Using One Pushbutton to Count Up and Another to Reset Counting
+	b.	Basic Binary Counter
+	b.1. Using One Pushbutton to Count Up
+	b.2. Using One Pushbutton to Count Up and Another to Reset Counting
 
-IV.	PROGRAMMING 
+	IV.	PROGRAMMING 
 
-a.	Basic LED Toggle State
-a.1. Using One Pushbutton as an External Interrupt
-a.2 Connecting Multiple Pushbuttons in one External Interrupt
-a.3 Connecting Multiple Pushbuttons in all External Interrupt
+	a.	Basic LED Toggle State
+	a.1. Using One Pushbutton as an External Interrupt
+	a.2 Connecting Multiple Pushbuttons in one External Interrupt
+	a.3 Connecting Multiple Pushbuttons in all External Interrupt
 
-b.	Basic Binary Counter
-b.1. Using One Pushbutton to Count Up
-b.2. Using One Pushbutton to Count Up and Another to Reset Counting
+	b.	Basic Binary Counter
+	b.1. Using One Pushbutton to Count Up
+	b.2. Using One Pushbutton to Count Up and Another to Reset Counting
 
-V.	REFERENCES
-VI.	APPENDIX
+	V.	REFERENCES
+	VI.	APPENDIX
 
 WORK DISTRIBUTION
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-INTRODUCTION: AGBAY
-DISCUSSION: (a) AGBAY, (b&c) RODRIGO
-CIRCUIT CONFIGURATIONS: (a) AGBAY, (b) RODRIGO
-PROGRAMMING: VALENZUELA
-		
+	INTRODUCTION: AGBAY
+	DISCUSSION: (a) AGBAY, (b&c) RODRIGO
+	CIRCUIT CONFIGURATIONS: (a) AGBAY, (b) RODRIGO
+	PROGRAMMING: VALENZUELA
+
 		
