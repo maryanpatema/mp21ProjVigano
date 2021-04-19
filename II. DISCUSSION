@@ -1,0 +1,60 @@
+# mp21ProjVigano
+
+II. DISCUSSION 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+a. ATMEGA 328p
+
+The ATMEGA328P is a high performance, low power controller from Microchip. It is an 8-bit microcontroller based on AVR RISC architecture and it is the most popular of all the AVR controllers as it is mostly used in Arduino boards.
+
+a.1. Features
+
+Some notable features of the ATMEGA328P:
+  •	High-performance and Low-power
+  •	Advanced RISC architecture
+    -	131 powerful instructions
+    -	32x8 general purpose working registers
+    -	Fully static operation
+    -	Up to 16MIPS throughput at 16MHz
+    -	On-chip 2-cycle multiplier
+  •	High endurance non-volatile memory segments
+    -	32k-bytes of in-system self-programmable flash program memory
+    -	1k-bytes EEPROM
+    -	2k-bytes internal SRAM
+    -	Write/erase cycles: 10k flash/100k EEPROM
+    -	Optional boot code section (with independent lock bits)
+    -	Programming lock for software security
+  •	Peripheral Features
+    -	Two 8-bit Timer/Counters (with separate prescaler and compare mode)
+    -	One 16-bit Timer/Counter (with separate prescaler, compare mode, and capture mode)
+    -	Real time counter (with separate oscillator)
+    -	Six PWM channels
+    -	8-channel 10-bit ADC
+    -	Programmable serial USART
+    -	Master/slave SPI serial interface
+    -	Byte-oriented 2-wire serial interface
+    -	Programmable watchdog timer 
+    -	On-chip analog comparator
+    -	Interrupt and wake-up on pin change
+  •	Special Microcontroller Features
+    -	Power-on reset and programmable brown-out detection
+    -	Internal calibrated oscillator
+    -	External and internal interrupt sources
+    -	Six sleep modes: Idle, ADC noise reduction, power-save, power-down, standby, and extended standby
+  •	I/O and Packages
+    -	23 programmable I/O lines
+    -	32-lead TQFP and 32-pad QFN/MLF
+  •	Operating Voltage
+    -	2.7V to 5.5V
+  •	Temperature Range
+    -	-40°C to +125°C
+  •	Speed Grade
+    -	0 to 8 MHz at 2.7 to 5.5V 
+    -	0 to 16MHz at 4.5 to 5.5V
+  •	Low Power Consumption
+    -	Active mode: 1.5mA at 3V (4MHz)
+    -	Power-down mode: 1µA at 3V
+
+a.2. Pin Configurations and Description
+
+
