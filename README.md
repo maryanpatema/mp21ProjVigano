@@ -1,8 +1,7 @@
 # mp21ProjVigano
 
 
-Project Title: HANDLING MULTIPLE EXTERNAL INTERRUPTS
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Project Title: HANDLING MULTIPLE EXTERNAL INTERRUPTS
 
 	Description:
 
