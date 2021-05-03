@@ -1,7 +1,7 @@
 
 
 
-# Project Title: HANDLING MULTIPLE EXTERNAL INTERRUPTS
+# HANDLING MULTIPLE EXTERNAL INTERRUPTS
 
 <p align="justify">All pins in ATmega328p can trigger interrupts when there is a change of state. However, only INT0 and INT1 can be configured to trigger interrupts in a low level. This trigger continuous until the low-level stops. Upon activation of these interrupts, the MCU gets ‘interrupted’ on what is it currently performing and jumps to execute the interrupt service routine.</p>
 
