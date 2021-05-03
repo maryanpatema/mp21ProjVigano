@@ -12,7 +12,7 @@
 <br/>*-Engr. Ruiz answered that we get to decide on what will be presented*
 
 **Time Ended:** 3:21 PM
-**Attendees:** 
+<br/>**Attendees:** 
 <br/>Agbay, Ishmaiah Julia
 <br/>Rodrigo, Andrea Therese
 <br/>Valenzuela, Marianne Fatima
