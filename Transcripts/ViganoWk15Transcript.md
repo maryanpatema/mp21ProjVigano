@@ -1,4 +1,4 @@
-Time started: 3:20 PM
+**Time started: 3:20 PM**
 
 Attendees: 
 Agbay, Ishmaiah Julia
