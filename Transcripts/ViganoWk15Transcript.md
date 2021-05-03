@@ -1,9 +1,9 @@
-**Time started: 3:20 PM**
+**Time started:** 3:20 PM
 
-Attendees: 
-Agbay, Ishmaiah Julia
-Rodrigo, Andrea Therese
-Valenzuela, Marianne Fatima
+**Attendees** 
+<br/>Agbay, Ishmaiah Julia
+<br/>Rodrigo, Andrea Therese
+<br/>Valenzuela, Marianne Fatima
 
 
 
@@ -14,4 +14,4 @@ Valenzuela, Marianne Fatima
 * Valenzuela asked Engr. Ruiz if there were specific things to be added in the presentation 
 * Engr. Ruiz answered that we get to decide on what will be presented
 
-Time Ended: 3:21 PM
+**Time Ended:** 3:21 PM
