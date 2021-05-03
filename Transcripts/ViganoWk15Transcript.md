@@ -1,6 +1,6 @@
 **Time started:** 3:20 PM
 
-**Attendees** 
+**Attendees:** 
 <br/>Agbay, Ishmaiah Julia
 <br/>Rodrigo, Andrea Therese
 <br/>Valenzuela, Marianne Fatima
