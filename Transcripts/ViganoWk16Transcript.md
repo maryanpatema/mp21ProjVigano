@@ -1,6 +1,5 @@
 **Time started:** 3:35 PM
 
-
 <br/>- We talked about the issues raised to us again
 <br/>- We forgot to update our GitHub
 <br/>- Abstract isn't started yet, but will start within this week
